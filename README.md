@@ -1,6 +1,6 @@
 # Weekly Progress Reports
 This section covers topics of *Technology Design Foundation*.
-## [Week of Aug.28](2023_08_28_ProgressReport)
+## [Week of Aug.28](../weekly-reports/2023_08_28_ProgressReport)
 Contents:
 - Synchronization between *Obsidian* and *GitHub*
 - Markdown - the *GitHub* way
