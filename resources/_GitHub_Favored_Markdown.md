@@ -9,7 +9,9 @@ To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) an
 #### Internal Links
 Remember to include the file path and file suffix!
 ```
-[Week of Aug.28](../weekly reports/2023_08_28_ProgressReport.md)
+[Week of Aug.28](weekly reports/2023_08_28_ProgressReport.md)
+
+[README](../README.md)
 ```
 #### Adding Titles
 You can optionally add a title for a link. This will appear as a tooltip when the user **hovers over the link**. To add a title, enclose it in quotation marks after the URL.
