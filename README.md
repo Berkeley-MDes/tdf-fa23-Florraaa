@@ -1,10 +1,13 @@
+This is **Mingzhou (Ming)**'s weekly report hub. Everything related to *Design* and *Technology* will be posted here.
+
 # Weekly Progress Reports
-This section covers topics of *Technology Design Foundation*.
+
 ## [Week of Aug.28](weekly-reports/2023_08_28_ProgressReport.md)
 Contents:
 - Synchronization between *Obsidian* and *GitHub*
 - Markdown - the *GitHub* way
 - Computational Design
+- *Gravity Sketch* Workflow (ID)
 
 --- 
 ## Quick Links
