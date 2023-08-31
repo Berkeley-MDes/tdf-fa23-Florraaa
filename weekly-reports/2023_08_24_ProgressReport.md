@@ -61,6 +61,7 @@ Resources:
 
 # Computational Design
 
+![Grasshopper display error on Mac](_attachments/Grasshopper_display_error.PNG)
 
 ---
 # Gravity Sketch Workflow
