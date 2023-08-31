@@ -51,7 +51,7 @@ However, for the **Simplicity** of having everything in one app (*Obsidian*), I 
 # Markdown - the GitHub way
 This section is about transferring previous markdown knowledge for *GitHub* use. 
 
-See [here](resources/_GitHub_Favored_Markdown.md) for notes about the mixed use of the markdown language in *Obsidian* and *GitHub*.
+See [here](../resources/_GitHub_Favored_Markdown.md) for notes about the mixed use of the markdown language in *Obsidian* and *GitHub*.
 
 Resources: 
 - [GitHub Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) - General guide for GitHub writing
