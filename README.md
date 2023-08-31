@@ -1,5 +1,5 @@
 # Mingzhou (Ming) - Weekly Reports
-Everything I learned about *Design* and *Technology* will be posted here.
+Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
 ### [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
