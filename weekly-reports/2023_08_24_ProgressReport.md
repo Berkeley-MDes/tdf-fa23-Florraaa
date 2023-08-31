@@ -4,8 +4,8 @@ Link back to [README.md](../README.md)
 # Sync between Obsidian and GitHub
 To synchronize between *Obsidian* and *GitHub*, I tried two methods in success: 
 ## Method 1: Obsidian Git (HTTP on Mac)
-Following [this guide](https://publish.obsidian.md/git-doc/Getting+Started), I got error messages like this one: 
-[![Obsidian Git が認証エラーで使えない問題を解決する](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkattsun.dev%2Fimg%2FPasted%2520image%252020210528092236.png&f=1&nofb=1&ipt=a5a6f1d0161e9b8509b8396e0a2635365ae32f8024316f4ddb041d84e2e372cb&ipo=images)](https://kattsun.dev/img/Pasted%20image%2020210528092236.png)
+Following [*Obsidian Git* documentation](https://publish.obsidian.md/git-doc/Getting+Started), I got error messages like this one: 
+
 
 There seemed to be authentication problems in Git, which I had no clue of. After some digging on the internet, I generated a Token following [this guide](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github), **and it worked**! 
 
@@ -30,14 +30,13 @@ obsidian git: create backup
 ```
 
 ## Method 2: GitHub Desktop 
-The easiest way is to stall [*GitHub Desktop*](https://desktop.github.com) and set the local folder inside an existing Obsidian Vault. The workflow will be as simple as this: 
+The easiest way is to stall [*GitHub Desktop*](https://desktop.github.com) and set the local folder inside an existing Obsidian Vault. The workflow will be: 
 1. Make changes in *Obsidian*
-2. Review changes and commit in *GitHub Desktop*
+2. Review changes
+3. Commit and push in *GitHub Desktop*
+4. Multiple changes will require manual input of "Summary."
 
 However, for the **Simplicity** of having everything in one app (*Obsidian*), I later deleted *GitHub Desktop* and used the *Obsidian Git* Plugin method. 
-
-Another disadvantage is when I create a backup for multiple file changes, I need to type notes to push, which can be annoying sometimes.  
-
 
 ---
 
