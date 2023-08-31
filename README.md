@@ -1,5 +1,7 @@
 This is **Mingzhou (Ming)**'s weekly report hub. Everything related to *Design* and *Technology* will be posted here.
 
+Test
+
 # Weekly Progress Reports
 
 ## [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
