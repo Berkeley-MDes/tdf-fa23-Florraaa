@@ -9,9 +9,13 @@ Everything I learned about *Design* and *Technology* will be posted here.
 - **Markdown - the *GitHub* way**
 	- [Here](resources/_GitHub_Favored_Markdown.md) is a living document for markdown grammar for *GitHub*, especially the ones different from that for *Obsidian*. 
 - **Computational Design**
+	- Learned some basic operations and knowledge
+	- Printed the phone stand for a iPhone 13 mini
 - ***Gravity Sketch* Workflow (ID)**
 	- I explained two potential industrial design workflows that include the use of *Gravity Sketch* - for physical prototyping and interactive prototyping
 	- This may have its own living document someday. 
+- **3D Printing Retraction Settings**
+	- [Here](https://all3dp.com/2/ender-3-pro-v2-retraction-settings-all-you-need-to-know/#:~:text=But%2C%20more%20importantly%2C%20too%20high,or%20even%20break%20mid%2Dprint.) is a useful guide for future reference. 
 
 --- 
 ## Quick Links

@@ -1,6 +1,37 @@
 Link back to [README.md](../README.md)
 
 ---
+
+**note:** 
+In every week's progress report, I will list **Reflections** and **Speculations** at front (like a TL,DR version) and put longer notes below them. 
+
+---
+# Reflections
+- Learned how to use basic Markdown in *GitHub*
+- Set up synchronization between *Obsidian* and *GitHub* using git
+	- Writing in the *Obsidian* is just easier. I'm glad to set up the sync.   
+- Basic understanding of *Grasshopper*
+	- This is a good start but not enough yet. I still need to understand how to model from 0 to 1.  
+- Learned an important setting in 3D printings
+	- 3D printings are not easy for some geometries. Running a test print is always a good idea. 
+
+# Speculations
+- The computational design method can be used for **wearable products** that needs deep customization. 
+	- e.g., the facial cushion of [*Bigscreen VR* headset](https://www.bigscreenvr.com/) utilizes 3D scanning and additive manufacturing to create one of the most immersive experiences (See [this review video](https://www.youtube.com/watch?v=obAhWP9vkhU&pp=ygUTYmlnIHNjcmVlbiB2ciBzYWRseQ%3D%3D) for more details)
+	- e.g., [ShapeDiver](**https://shapediver.com/**) has many parameter-based products for reference
+- Incorporate *Gravity Sketch* in the Industrial Design workflow may be **revolutionary.** 
+
+## Next steps:
+1. Computational Design - modeling a face cushion
+	- learn to model with *Grasshopper*
+	- research parameters for designing the facial cushion for a VR headset
+	- model the facial cushion!
+2. Experiment *Gravity Sketch* physical prototyping workflow
+	- try to print a model imported from *Gravity Sketch*
+	- maybe record the process if I can to see how fast it is
+	- I will try the Unity workflow in a later timeline. 
+
+---
 # Sync between Obsidian and GitHub
 To synchronize between *Obsidian* and *GitHub*, I tried two methods in success: 
 ## Method 1: Obsidian Git (HTTP on Mac)
@@ -51,7 +82,7 @@ However, for the **Simplicity** of having everything in one app (*Obsidian*), I 
 # Markdown - the GitHub way
 This section is about transferring previous markdown knowledge for *GitHub* use. 
 
-See [here](../resources/_GitHub_Favored_Markdown.md) for notes about the mixed use of the markdown language in *Obsidian* and *GitHub*.
+See [here](../projects/documents/_GitHub_Favored_Markdown.md) for notes about the mixed use of the markdown language in *Obsidian* and *GitHub*.
 
 Resources: 
 - [GitHub Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) - General guide for GitHub writing
@@ -101,3 +132,17 @@ I may further develop this topic in another dedicated journal.
 The *Physical Mockup* workflow is easier to adopt and has value for many traditional ID applications because it includes physical feedback. 
 
 The *Interactive Mockup* seems more suitable for storyboards (user actions in context). **However, *ShapesXR* can be a better fit since it does not require coding.** 
+
+---
+
+# 3D Printing - Retraction Settings
+
+![Retraction Settings](_attachments/Retraction_Settings.png)
+
+[Here](https://all3dp.com/2/ender-3-pro-v2-retraction-settings-all-you-need-to-know/#:~:text=But%2C%20more%20importantly%2C%20too%20high,or%20even%20break%20mid%2Dprint.) is a guide I found for future reference.
+
+The retraction settings were overlooked until I tried to print a chainmail (the picture below is from [*Thingiverse*](https://www.thingiverse.com/thing:2437081).) Small and repetitive geometries should be printed with minimum retractions.  
+
+![chainmail](https://cdn.thingiverse.com/renders/5c/de/20/ac/31/126aac493a35688707ef6c6b0881315e_preview_featured.jpg)
+
+ 
