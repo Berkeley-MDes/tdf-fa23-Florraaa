@@ -2,7 +2,7 @@ This is **Mingzhou (Ming)**'s weekly report hub. Everything related to *Design* 
 
 # Weekly Progress Reports
 
-## [Week of Aug.28](weekly-reports/2023_08_28_ProgressReport.md)
+## [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
 Contents:
 - Synchronization between *Obsidian* and *GitHub*
 - Markdown - the *GitHub* way

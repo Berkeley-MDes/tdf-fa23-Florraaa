@@ -1,7 +1,16 @@
-This file documents notes for common uses of Markdown in *GitHub*. 
+This file documents notes for common editing of Markdown in *Obsidian* for use in *GitHub* (a common ground). 
+
+Only some things mentioned here have been tested. I will continue updating this document.
+
+---
+Resources:
+
+- [GitHub Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) - General guide for GitHub writing
+- [Obsidian Markdown Guide](https://www.markdownguide.org/tools/obsidian/) - Use this to check which ones are available in _Obsidian_
+
+---
 
 ### Links
-(use Command + K)
 To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
 ```
 [DuckDuckGo](https://duckduckgo.com)
@@ -32,6 +41,14 @@ Reference-style links are a special kind of link that make URLs **easier to disp
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a [hobbit-hole][1], and that means comfort.
 
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+```
+
+
+### Color
+In issues, pull requests, and discussions, you can call out colors within a sentence by using backticks. A supported color model within backticks will display a visualization of the color.
+
+```markdown
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 ```
 
 ### Task Lists
