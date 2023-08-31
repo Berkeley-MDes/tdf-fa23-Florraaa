@@ -1,6 +1,6 @@
 This is **Mingzhou (Ming)**'s weekly report hub. Everything related to *Design* and *Technology* will be posted here.
 
-Test
+PUSH TEST PLZ WORK!!!
 
 # Weekly Progress Reports
 
