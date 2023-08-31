@@ -6,6 +6,7 @@ To synchronize between *Obsidian* and *GitHub*, I tried two methods in success:
 ## Method 1: Obsidian Git (HTTP on Mac)
 Following [*Obsidian Git* documentation](https://publish.obsidian.md/git-doc/Getting+Started), I got error messages like this one: 
 
+![Device not configured](https://kattsun.dev/img/Pasted%20image%2020210528092236.png)
 
 There seemed to be authentication problems in Git, which I had no clue of. After some digging on the internet, I generated a Token following [this guide](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github), **and it worked**! 
 

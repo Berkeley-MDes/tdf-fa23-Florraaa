@@ -1,14 +1,16 @@
-This is **Mingzhou (Ming)**'s weekly report hub. Everything related to *Design* and *Technology* will be posted here.
+This is **Mingzhou (Ming)**'s weekly report hub. Everything I learned about *Design* and *Technology* will be posted here.
 
 # TL;DR: Weekly Progress Reports
-
 ## [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
-Contents:
-- Synchronization between *Obsidian* and *GitHub*
-	- Method 1: *Obsidian Git* (HTTPS)
-- Markdown - the *GitHub* way
-- Computational Design
-- *Gravity Sketch* Workflow (ID)
+- **Synchronization between *Obsidian* and *GitHub***
+	- Method 1: [*Obsidian Git* (HTTPS)](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github)
+	- Method 2: Use [*GitHub Desktop*](https://desktop.github.com) to sync with the local vault
+- **Markdown - the *GitHub* way**
+	- [Here](resources/_GitHub_Favored_Markdown.md) is a living document for markdown grammar for *GitHub*, especially the ones different from that for *Obsidian*. 
+- **Computational Design**
+- ***Gravity Sketch* Workflow (ID)**
+	- I explained two potential industrial design workflows that include the use of *Gravity Sketch* - for physical prototyping and interactive prototyping
+	- This may have its own living document someday. 
 
 --- 
 ## Quick Links
