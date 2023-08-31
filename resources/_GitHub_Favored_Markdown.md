@@ -1,6 +1,4 @@
-This file documents notes for common editing of Markdown in *Obsidian* for use in *GitHub* (a common ground). 
-
-Only some things mentioned here have been tested. I will continue updating this document.
+This file highlights some common uses/misuses due to "cross-markdown" between *Obsidian* and *GitHub*. 
 
 ---
 Resources:
@@ -10,13 +8,24 @@ Resources:
 
 ---
 
-### Links
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
+# Basic
+### Emphasis
+Style | Syntax | Output | Obsidian | GitHub |
+----- | ----- | ----- | ----- | ----- |
+Bold | `** **` or `__ __` | **Bold text** |  |  |
+Italic | * * or - - | _Italic text_ |  |  |
+Strikethrough | ~~ ~~ | ~~Striked out text~~  |  |  |
+Highlight | == == | ==Highlighted text== |  | No |
+Bold and nested italic | ** ** and _ _ | **Bold text and _nested italic text_** |  | |
+Bold and italic text | *** *** or ___ ___| ___Bold and italic text___ |  | |
+Subscript |  `<sub>` or `</sub>` |
+
+# Links
 ```
 [DuckDuckGo](https://duckduckgo.com)
 ```
-#### Internal Links
-Remember to include the file path and file suffix!
+## Internal Links
+Include the file path and file suffix!
 ```
 [Week of Aug.28](weekly reports/2023_08_28_ProgressReport.md)
 

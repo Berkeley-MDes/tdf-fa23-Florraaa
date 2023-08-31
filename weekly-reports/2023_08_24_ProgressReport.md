@@ -11,7 +11,7 @@ Following [*Obsidian Git* documentation](https://publish.obsidian.md/git-doc/Get
 There seemed to be authentication problems in Git, which I had no clue of. After some digging on the internet, I generated a Token following [this guide](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github), **and it worked**! 
 
 ### Solutions
-==The current solution== is to generate a personal token in the *GitHub* settings and include it in the repository path like this: 
+The current solution is to generate a personal token in the *GitHub* settings and include it in the repository path like this: 
 ```
 https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
 ```
