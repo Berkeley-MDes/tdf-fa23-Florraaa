@@ -120,6 +120,9 @@ Unbaked:
 Baked: 
 ![Grasshopper](_attachments/Grasshopper_Baked.png)
 
+## Result
+![3D Print](_attachments/3DPrint.jpg)
+
 ---
 # Gravity Sketch Workflow
 Learned new (*Industrial Design*) workflows from another designer. 
