@@ -8,10 +8,10 @@ Following [*Obsidian Git* documentation](https://publish.obsidian.md/git-doc/Get
 
 ![Device not configured](https://kattsun.dev/img/Pasted%20image%2020210528092236.png)
 
-There seemed to be authentication problems in Git, which I had no clue of. After some digging on the internet, I generated a Token following [this guide](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github), **and it worked**! 
+There seemed to be authentication problems in Git, which I had no clue of. 
 
 ### Solutions
-The current solution is to generate a personal token in the *GitHub* settings and include it in the repository path like this: 
+The current solution is to  [generate a personal token](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github) in the *GitHub* settings and include it in the repository path like this: 
 ```
 https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
 ```
@@ -22,7 +22,7 @@ There is [another solution](https://kattsun.dev/posts/2021-05-28-obsidian-git-au
 git config --global credential.helper osxkeychain
 ```
 
-### Miscellaneous
+### Backup
 - For automatic backup, the number of *Vault backup interval* cannot be zero:
 
 ![Pasted_Image](_attachments/Pasted_image_20230830213813.png)
@@ -62,6 +62,7 @@ Resources:
 # Computational Design
 
 
+---
 # Gravity Sketch Workflow
 Learned new (*Industrial Design*) workflows from another designer. 
 

@@ -1,7 +1,8 @@
-This is **Mingzhou (Ming)**'s weekly report hub. Everything I learned about *Design* and *Technology* will be posted here.
+# Mingzhou (Ming) - Weekly Reports
+Everything I learned about *Design* and *Technology* will be posted here.
 
-# TL;DR: Weekly Progress Reports
-## [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
+## TL;DR
+### [Week of Aug.24-31](weekly-reports/2023_08_24_ProgressReport.md)
 - **Synchronization between *Obsidian* and *GitHub***
 	- Method 1: [*Obsidian Git* (HTTPS)](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github)
 	- Method 2: Use [*GitHub Desktop*](https://desktop.github.com) to sync with the local vault
