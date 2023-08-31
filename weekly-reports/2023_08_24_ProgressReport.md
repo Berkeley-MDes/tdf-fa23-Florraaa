@@ -17,7 +17,7 @@ https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
 ### Miscellaneous
 - For automatic backup, the number of *Vault backup interval* cannot be zero:
 
-![Pasted_Image](weekly-reports/_attachments/Pasted_image_20230830213813.png)
+![Pasted_Image](_attachments/Pasted_image_20230830213813.png)
 
 - To manually push changes, use either of the following commands:
 ```
