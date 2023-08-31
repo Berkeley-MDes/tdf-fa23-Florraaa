@@ -9,7 +9,7 @@ Following [this guide](https://publish.obsidian.md/git-doc/Getting+Started), I g
 
 There seemed to be authentication problems in Git, which I had no clue of. After some digging on the internet, I generated a Token following [this guide](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github), **and it worked**! 
 
-The solution is to generate a personal token in the *GitHub* settings and include it in the repository path like this: 
+==The current solution== is to generate a personal token in the *GitHub* settings and include it in the repository path like this: 
 ```
 https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
 ```
@@ -17,7 +17,7 @@ https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git
 ### Miscellaneous
 - For automatic backup, the number of *Vault backup interval* cannot be zero:
 
-![[Pasted image 20230830213813.png]]
+![Pasted image 20230830213813.png](weekly-reports/_attachments/Pasted_image_20230830213813.png)
 
 - To manually push changes, use either of the following commands:
 ```
