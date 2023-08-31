@@ -5,7 +5,7 @@ If you’re new to GitHub, you can think of this as a shared file space (like a 
 
 This is your space to store project files, videos, PDFs, notes, images, etc., and (hopefully, neatly) organize so it's easy for viewers (and you!) to navigate. That said, it’s super easy for you to share any file or folder with us (your TDF instructional team) - just send us the link! 
 
-These instructions were originally contained in the **[README.md](README.md)** for this repo. 
+These instructions were originally contained in the **[README.md](TDF-23Fall/README.md)** for this repo. 
 ##### (💡 TIP: The .md indicates that we’re using [Markdown formatting.](https://www.markdownguide.org/cheat-sheet/)) #####
 <h6> (💡 TIP 2: GitHub Markdown supports <a href="https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2"> <em>HTML formatting</em> too, including emojis 😄</a>, in case that helps!) </h6>
 

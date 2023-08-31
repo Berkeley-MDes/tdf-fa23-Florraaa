@@ -60,8 +60,34 @@ Resources:
 ---
 
 # Computational Design
-
+Opening files from Mac often surprises me - you just can't assume it being normal just because it worked yesterday: 
 ![Grasshopper display error on Mac](_attachments/Grasshopper_display_error.png)
+
+The problem was that I could not see anything in Grasshopper. Half of things worked in the .3dm file but that was not enough. 
+
+![Sad Mac users](_attachments/why_buy_a_mac.jpg)
+
+A designer friend once said that Macs don't like Rhino (or the other way around), so I tried opening from *Windows*. **It worked!**
+
+## CellPhoneStandModel.gh
+1. Change parameters can be done in two places:
+	1. Rhino -> Properties Panel -> Grasshopper: drag handle (cannot type exact numbers)
+		![GH Properties Panel](_attachments/PropertiesPanel.png)
+	2. Directly in Grasshopper: can type numbers ![GH](_attachments/GH_Nodes.png)
+
+## Grasshopper
+**Basic**
+- Add a node:
+	- use the **toolbar** to add
+	- double click on the blank space or hit space to **search and add**
+
+## "Bake"
+If the geometry is not *baked*, it is not selectable in Rhino. When the *Grasshoppper* window is closed, these will disappear. 
+
+Unbaked: 
+![Grasshopper Baked](_attachments/Grasshopper_Unbaked.png)
+Baked: 
+![Grasshopper](_attachments/Grasshopper_Baked.png)
 
 ---
 # Gravity Sketch Workflow
