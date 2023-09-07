@@ -47,14 +47,14 @@ Here I analyzed some key facial parameters for future references.
 
 The model was done in *Gravity Sketch*.
 
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3482.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3483.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3484.png | width=100px)
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3485.png | width=100px)
+![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3482.jpg)
+![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3483.jpg)
+![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3484.png)
+![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3485.png)
 
 Here is the notes that visualizes these parameters on a compact VR facial cushion. 
 
-![img](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3507.jpg | width=100px)
+![img](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3507.jpg)
 
 ## Practice
 ### 3D Scanning
@@ -78,12 +78,12 @@ The generated geometry in *Rhino* (pink).
 
 ### 3D Print
 I used rigid PLA to test fitness. The print took about 4.5 hours on an *Ender 3v2* printer. 
-![](../projects/sketches-and-pics/computational_design/test_print_1/front.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/test_print_1/up.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/test_print_1/side.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/test_print_1/IMG_3500.jpg | width=100px)
-![](../projects/sketches-and-pics/computational_design/test_print_1/IMG_3501.jpg | width=100px)
+![](../projects/sketches-and-pics/computational_design/test_print_1/front.jpg)
+![](../projects/sketches-and-pics/computational_design/test_print_1/up.jpg)
+![](../projects/sketches-and-pics/computational_design/test_print_1/side.jpg)
+![](../projects/sketches-and-pics/computational_design/test_print_1/IMG_3500.jpg)
+![](../projects/sketches-and-pics/computational_design/test_print_1/IMG_3501.jpg)
 
 The model turned out great, despite a noticeable gap (~3 mm) at the sides, which should be the result of using a single camera as the 3D scanner. This can be alleviated if I used flexible materials. 
 
-![](../projects/sketches-and-pics/computational_design/test_print_1/gap.jpg | width=100px)
+![](../projects/sketches-and-pics/computational_design/test_print_1/gap.jpg)
