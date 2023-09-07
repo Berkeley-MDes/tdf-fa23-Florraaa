@@ -27,7 +27,7 @@ Link back to [README.md](../README.md)
 # Topic 1
 
 test: 
-<img src="">
+<img src="../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3482.jpg" width="200"/>
 
 ---
 
