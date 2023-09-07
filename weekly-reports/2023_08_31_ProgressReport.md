@@ -55,7 +55,6 @@ Here is the notes that visualizes these parameters on a compact VR facial cushio
 
 ![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3507.jpg)
 
-
 ## Practice
 ### 3D Scanning
 I used the mobile app *Polycam* to scan my own face. It generated a FBX file that I can import to rhino. 
