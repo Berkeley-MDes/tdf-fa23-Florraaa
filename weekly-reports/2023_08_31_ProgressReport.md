@@ -50,7 +50,6 @@ The model was done in *Gravity Sketch*.
 ![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3482.jpg)
 ![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3483.jpg)
 ![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3484.png)
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3485.png)
 
 Here is the notes that visualizes these parameters on a compact VR facial cushion. 
 
