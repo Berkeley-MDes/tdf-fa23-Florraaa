@@ -2,27 +2,25 @@ Link back to [README.md](TDF-23Fall/README.md)
 
 ---
 # Reflections
-- in complete sentences or paragraphs, and perhaps images or videos.
-- reflections on what you learned and how you learned it
-- an assessment of the state of your work
+- I used *Grasshopper* to create a parametric geometry (in-progress) and the VR facial cushion. TJ's in-person *Grasshopper* session helped me understand the basic logic of computational modeling.
+- Thanks to my previous knowledge of modeling in *Solidworks* and the help of *ChatGPT* :) I now understand the basics of *Grasshopper*. 
+- *Grasshopper* (and many of its plugins) are fun to play with. 
 
 # Speculations
-- in complete sentences or paragraphs, and perhaps images or videos.
-- speculation on future direction for the tools (so much is changing very quickly right now, where do you think this is going? Why do you think this?)
-- speculation on future direction for the work
-- bonus: thoughtful descriptions of something interesting and relevant you heard about in the news or industry publications. include text, an image, a link, and a reference that you can follow up on later and share with your peers.
+- For complex surfacing I may still use *solidworks*. It will be easier to model and modify whenever. 
+- I still need to follow tutorials to learn more advanced operations. There are many (Math-related) question I will have. 
+- [AR fabrication](https://www.youtube.com/watch?v=xTQAeuZF74w&t=1s&pp=ygUdYXVnbWVudGVkIHJlYWxpdHkgZmFicmljYXRpb24%3D) can be used for any installations of large scale, I also wonder its capability in prototyping/building design innovations in general - *twinmotion*?
 
-## Next steps:
-1. Computational Design - modeling a face cushion
-    - learn to model with _Grasshopper_
-    - research parameters for designing the facial cushion for a VR headset
-    - model the facial cushion!
-2. Experiment _Gravity Sketch_ physical prototyping workflow
-    - try to print a model imported from _Gravity Sketch_
-    - maybe record the process if I can to see how fast it is
-    - I will try the Unity workflow in a later timeline.
+# Next steps:
+1.  Design the rest of the headset (Industrial Design)
+	-  This will be a quick process exploring a near-future style of XR headset to pair with the facial cushion
+	- The methodology focus will be on *Gravity Sketch* ideation and prototyping
+	- *Generate some parametric patterns on the front
+1. Optimize the facial cushion design
+	- Smooth the sharp edges
 
 ---
+
 
 # Rhino Grasshopper
 

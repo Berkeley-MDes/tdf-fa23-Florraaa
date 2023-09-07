@@ -21,7 +21,7 @@ In every week's progress report, I will list **Reflections** and **Speculations*
 	- e.g., [ShapeDiver](**https://shapediver.com/**) has many parameter-based products for reference
 - Incorporate *Gravity Sketch* in the Industrial Design workflow may be **revolutionary.** 
 
-## Next steps:
+# Next steps:
 1. Computational Design - modeling a face cushion
 	- learn to model with *Grasshopper*
 	- research parameters for designing the facial cushion for a VR headset
