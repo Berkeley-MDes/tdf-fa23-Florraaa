@@ -44,6 +44,13 @@ Notice that the prefix of an image is **case-sensitive**. Use lower cases in mos
 ![Grasshopper display error on Mac](_attachments/Grasshopper_display_error.png)
 ```
 
+### Embed YouTube Video
+You **CANNOT** embed the video directly, but you can embed a picture that links to the video. 
+```
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+```
+
 
 ## Adding Titles
 You can optionally add a title for a link. This will appear as a tooltip when the user **hovers over the link**. To add a title, enclose it in quotation marks after the URL.
