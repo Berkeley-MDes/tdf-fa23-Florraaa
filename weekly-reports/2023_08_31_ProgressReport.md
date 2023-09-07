@@ -53,7 +53,7 @@ The model was done in *Gravity Sketch*.
 
 Here is the notes that visualizes these parameters on a compact VR facial cushion. 
 
-![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3507.jpg)
+![](../projects/sketches-and-pics/computational_design/facial_parameters/IMG_3507.JPG)
 
 ## Practice
 ### 3D Scanning
