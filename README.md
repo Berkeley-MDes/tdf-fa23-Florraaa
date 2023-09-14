@@ -2,7 +2,7 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
-### [Week of Sep.7](weekly-reports/2023_09_07_ProgressReport)
+### [Week of Sep.7](weekly-reports/2023_09_07_ProgressReport.md)
 - **Refine Grasshopper File**
 	- Compared to the *Bigscreen Beyond* Facial Cushion and modified the original design
 - **Computational Design**
