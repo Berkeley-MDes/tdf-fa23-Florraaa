@@ -28,8 +28,11 @@ Compare the second print to the geometry of the [*Bigscreen Beyond*](https://ske
 ![img](_attachments/comparison-top.png)![img](_attachments/comparison-front.png)
 
 ## Implementation
+I tried the flexible TPU on my Ender 3V2. Due to a lack of necessary parts (e.g., direct drive), the print was not successful. 
+![img](_attachments/TPUbending.jpg)
+
 Here is a photo of all three iterations (hard materials). 
-![img](3iterations.jpg)
+![img](_attachments/3iterations.jpg)
 The third one at the second row has a larger FOV and covered sides
 ![img](_attachments/Rhino_Screenshot.png)
 ![img](_attachments/Cushion_rev03_front.png)
