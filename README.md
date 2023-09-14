@@ -5,8 +5,8 @@ Everything I learned about *Design* and *Technology* will be posted here. Click 
 ### [Week of Sep.7](weekly-reports/2023_09_07_ProgressReport)
 - **Refine Grasshopper File**
 	- Compared to the *Bigscreen Beyond* Facial Cushion and modified the original design
-- **Gravity Sketch**
-	- 
+- **Computational Design**
+	- Understood the comprehensive computation design applications in Architecture 
 
 ### [Week of Aug.31](weekly-reports/2023_08_31_ProgressReport.md)
 - **Rhino & Grasshopper learning**
