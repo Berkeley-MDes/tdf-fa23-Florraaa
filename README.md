@@ -4,9 +4,9 @@ Everything I learned about *Design* and *Technology* will be posted here. Click 
 ## TL;DR
 ### [Week of Sep.14](weekly-reports/2023_09_14_ProgressReport)
 - **Fabrication**
-	- Some general 
-	- Wood:
-
+	- Some general rules of thumb in producing better results in the fabrication shop. 
+	- **Wood**: Keep the "precision" of equipment in mind; it's always good to keep producing the same sizes and angles than try to match CAD dimensions exactly. 
+	- **Sheet Metal Bending**: Try and experiment before nail them! 
 
 ### [Week of Sep.7](weekly-reports/2023_09_07_ProgressReport.md)
 - **Refine Grasshopper File**
