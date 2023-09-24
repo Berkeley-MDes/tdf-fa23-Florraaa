@@ -51,7 +51,7 @@ Everything I learned about *Design* and *Technology* will be posted here. Click 
 - [bCourses](https://bcourses.berkeley.edu/courses/1528355) - where the grading happens
 
 ### Notes
-- [GitHub Markdown](../projects/documents/_GitHub_Favored_Markdown.md) 
+- [GitHub Markdown](projects/documents/_GitHub_Favored_Markdown.md) 
 - [Grasshopper Notes](../projects/documents/Grasshopper.md) 
 - [Rhino notes](../projects/documents/Rhino.md) 
 
