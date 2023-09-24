@@ -2,7 +2,7 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
-### [Week of Sep.14](weekly-reports/2023_09_14_ProgressReport)
+### [Week of Sep.14](weekly-reports/2023_09_14_ProgressReport.md)
 - **Fabrication**
 	- Some general rules of thumb in producing better results in the fabrication shop. 
 	- **Wood**: Keep the "precision" of equipment in mind; it's always good to keep producing the same sizes and angles than try to match CAD dimensions exactly. 
