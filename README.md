@@ -2,6 +2,9 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Sep.21](weekly-reports/2023_09_21_ProgressReport.md)
+- **AR Prototyping**
+	- Dived into Bezel tutorials to work on my own case study
 ### [Week of Sep.14](weekly-reports/2023_09_14_ProgressReport.md)
 - **Fabrication**
 	- Some general rules of thumb in producing better results in the fabrication shop. 
