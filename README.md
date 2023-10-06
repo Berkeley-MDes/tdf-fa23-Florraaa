@@ -2,6 +2,12 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Sep.28](weekly-reports/2023_09_28_ProgressReport.md)
+- **System Thinking**
+	- Practiced system thinking on a sustainable packaging project. 
+- **Music Creation**
+	- Tried making music in *Virtuoso VR*. 
+
 ### [Week of Sep.21](weekly-reports/2023_09_21_ProgressReport.md)
 - **AR Prototyping**
 	- Dived into Bezel tutorials to work on my own case study
