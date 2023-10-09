@@ -21,11 +21,10 @@ https://www.instructables.com/PhotonConnect-LCD-With-I2C/
 ![[d05ae4a75da38ba987ffda6ed5c7faa2.jpeg]]
 ```
 #include <LiquidCrystal_I2C.h>
-// #include <Adafruit_LiquidCrystal.h>
 #include <Arduino.h>
 #include <Wire.h>
 
-LiquidCrystal_I2C lcd_1(0x20, 16, 2); // I2C address 0x27, 16 column and 2 rows
+LiquidCrystal_I2C lcd_1(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
 // Adafruit_LiquidCrystal lcd_1(0);
 
 const int ledPin_R = 10; // Define the pin connected to the red LED
@@ -50,6 +49,8 @@ void setup()
   pinMode(ledPin_R, OUTPUT);
   pinMode(ledPin_B, OUTPUT);
 
+  lcd_1.init();
+  lcd_1.backlight();
   lcd_1.begin(16, 2); // Initialize the LCD with 16 columns and 2 rows
   lcd_1.clear();  // Clear the LCD screen
 }
