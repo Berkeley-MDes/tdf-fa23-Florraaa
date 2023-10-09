@@ -1,31 +1,8 @@
-Link back to [README.md](../README.md)
-
----
-# Reflections
-- The past week I have been busier with many projects and tasks.  Time management is certainly needed more than ever. 
-- I learned a mixture of soft skills like system thinking, music theory (not professionally at all), consulting tips, polymer meterials (again, not professionally)
-
-# Speculations
-- System thinking can be a framework for any problem-solving (professionally or in life), and it doesn't necessarily take long to draft. 
-- Music creation seems fun ;)
-
----
-
-## Resources
-https://www.hackster.io/ingo-lohs/what-s-my-i2c-address-0a097e
-https://www.instructables.com/PhotonConnect-LCD-With-I2C/
-
----
-
-## Adafruit_LiquidCrystal.h method
-![[d05ae4a75da38ba987ffda6ed5c7faa2.jpeg]]
-```
 #include <LiquidCrystal_I2C.h>
 #include <Arduino.h>
 #include <Wire.h>
 
 LiquidCrystal_I2C lcd_1(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
-// Adafruit_LiquidCrystal lcd_1(0);
 
 const int ledPin_R = 10; // Define the pin connected to the red LED
 const int ledPin_B = 11; // Define the pin connected to the blue LED
@@ -48,7 +25,7 @@ void setup()
   
   pinMode(ledPin_R, OUTPUT);
   pinMode(ledPin_B, OUTPUT);
-
+  
   lcd_1.init();
   lcd_1.backlight();
   lcd_1.begin(16, 2); // Initialize the LCD with 16 columns and 2 rows
@@ -126,4 +103,3 @@ void loop()
     digitalWrite(ledPin_R, LOW);  // Turn the red LED off
   }
 }
-```
