@@ -2,6 +2,10 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Oct.5](weekly-reports/2023_10_05_ProgressReport.md)
+- **Photon/Arduino**
+	- Continued working on the arduino/photon project. 
+
 ### [Week of Sep.28](weekly-reports/2023_09_28_ProgressReport.md)
 - **System Thinking**
 	- Practiced system thinking on a sustainable packaging project. 
