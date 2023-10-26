@@ -2,9 +2,19 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Oct.19](weekly-reports/2023_10_19_ProgressReport.md)
+- **A.I.**
+	- Learned more about how A.I. impacts design from a presentation
+- **Aviation**
+	- Learned future trends in the aviation industry, including new aircraft types, energy resources, and some new infrastructure technologies. 
+
+### [Week of Oct.12](weekly-reports/2023_10_12_ProgressReport.md)
+- **Photon/Arduino**
+	- Continued working on the Arduino/photon project. 
+
 ### [Week of Oct.5](weekly-reports/2023_10_05_ProgressReport.md)
 - **Photon/Arduino**
-	- Continued working on the arduino/photon project. 
+	- Continued working on the Arduino/photon project. 
 
 ### [Week of Sep.28](weekly-reports/2023_09_28_ProgressReport.md)
 - **System Thinking**

@@ -2,20 +2,19 @@ Link back to [README.md](../README.md)
 
 ---
 # Reflections
-- Building hardware and firmware incrementally will save time in troubleshooting. 
-- Still, job searching takes more time this week than I thought. 
+- I was mainly taking a small break and working on my portfolio and resume this week. In terms of effort, it was marginal, but it is a necessary break. 
 
 # Speculations
-- Though I still don't know much about coding or C++, with limited knowledge and A.I. I can still code simple applications to test interactive designs. 
-- Photon and Arduino can be useful for simple interactive prototyping even in industrial design projects. 
+- I learned from the Anthropic presentation that AI is more than I thought. The General Purpose Intelligence (GPI) can sort data and help design dynamic UI/UX. This opens up potential new opportunities in the future. 
+- I also learned more about the aviation industry due to another proejct. I am posting some links below and may post more in the future. 
 
 ---
 
-## Resources
-- https://www.hackster.io/ingo-lohs/what-s-my-i2c-address-0a097e
-- https://www.instructables.com/PhotonConnect-LCD-With-I2C/
-- https://www.circuitbasics.com/how-to-setup-gyroscopes-on-the-arduino/
+# Future Aviation
+[Future air mobility: Major developments in 2022 and significant milestones ahead](https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/future-air-mobility-blog/future-air-mobility-major-developments-in-2022-and-significant-milestones-ahead)
+[Big data makes aviation safer and more efficient. How?](https://addepto.com/blog/big-data-makes-aviation-safer-and-more-efficient-how/)
+[The future of aviation](https://airwaysmag.com/future-of-aviation/)
+[McKinsey](https://www.mckinsey.com/quarterly/the-five-fifty/up-up-and-away-the-future-of-air-mobility)
 
----
 
-## Food Preservation - UI 
+

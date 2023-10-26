@@ -2,118 +2,67 @@ Link back to [README.md](../README.md)
 
 ---
 # Reflections
-- Building hardware and firmware incrementally will save time in troubleshooting. 
-- Still, job searching takes more time this week than I thought. 
+- Hardware is hard. 
+	- Think about the hardware first and then the software; if the code does not work, go back to the wiring. 
+	- It is difficult as there are too many "variables" to consider - some sensors look the same but may not use the same library. 
+- It seems complicated to go the "extra mile" for this topic. However, even with our simple design, I already experienced some headaches as I was unfamiliar with building digital systems. 
+- The minor setback of being unable to detect the button press discouraged me from learning digital systems in the future at first, but I regained confidence once I resolved the issue.  
 
 # Speculations
-- Though I still don't know much about coding or C++, with limited knowledge and A.I. I can still code simple applications to test interactive designs. 
-- Photon and Arduino can be useful for simple interactive prototyping even in industrial design projects. 
-
+- Similar applications of monitoring in the farm context have existed for years. The pain point has always been the connection since many areas are remote from stations. 
+- Our design showcased a demo where people would monitor anything using a long-range local network (in this case, LoRaWAN). It is successful for the demo, and more can be considered, especially in interface design, when there are more sensors in the network. 
 ---
+# Design
+If implemented in a Texas farm, the device needs to **communicate between the farmer and various sensors in the warehouse.**  The idea is to have one device for displaying sensing information (temperature and humidity) to the farmer and the other for sensing and sending over the data via **LoRaWAN technology** (Long Range Wide Area Network).
 
-## Resources
-- https://www.hackster.io/ingo-lohs/what-s-my-i2c-address-0a097e
-- https://www.instructables.com/PhotonConnect-LCD-With-I2C/
-- https://www.circuitbasics.com/how-to-setup-gyroscopes-on-the-arduino/
+![[Pasted image 20231023215316.png]]
 
----
+Our demo involves two computing devices talking to each other via Wi-Fi. I took in charge of the interface design for the user (farmer), which is at the right side of the diagram. 
 
-## Food Preservation - UI 
-### Design
-![img](_attachments/d05ae4a75da38ba987ffda6ed5c7faa2.jpeg)
-![img](_attachments/Texas_Fruit_Preservation.jpg)
-## Major learnings from setbacks
-1. Build the hardware with codes incrementally to avoid massive troubleshooting work later on
-2. Old hardware may have problems with new libraries
+The logic was that there were three buttons:
+1. Setting
+2. Add (+)
+3. Minus (-)
 
-### Current Code (needs more troubleshooting): 
+And two LEDs:
+1. Red: an indication that Heater is on; 
+2. Blue: an indication that the Cooler is on. 
+
+On the LED screen, the farmer can see the live temperature (LiveT) by default; when *LiveT* falls out of the pre-set range, the heater/cooler will be turned on, and the LEDs let the farmer know the status in the warehouse. 
+
+The farmer can press the *setting* button to switch between 3 modes: 
+1. Default: shows the live temperature reading
+2. Press once: setting the maximum temperature
+3. Press twice: setting the minimum temperature
+4. * Press the third time: returns to the default mode
+
+![[Texas_Fruit_Preservation.jpg]]
+
+# Process
+Because I lent my photon to my teammate to test connections between the two, I **started off by experimenting with sensor connections on an Arduino board** (below is the successful demo on the board). 
+
+![[Pasted image 20231023220312.png]]
+
+I first wrote the code on **TinkerCAD** and could not troubleshoot what was wrong since the simulation would not run, and **the error code message did not show anything specific.** 
+
+I realized troubleshooting would be easier if I built the hardware incrementally and tested coding during this process. I switched to troubleshooting on both Arduino and Photon eventually. 
+## Problem 1: Not Detecting Button Press
+
+![[d05ae4a75da38ba987ffda6ed5c7faa2.jpeg]]
+
+I troubleshoot using the `print()` function in my `while` loops and `if` statements and realized **the button press was not detected.** 
+
+I tried many methods but did not succeed. I was connecting the button to the ground pin and a digital pin **without any resistor**, which caused the issue. However, I did not doubt this setup for the entire week since some people got it to work, like the tutorial below. 
+
+![[Pasted image 20231023221728.png]]
+
+When I finally connected the button to the ground pin **with a resistor**, I resolved the issue without any modification to the original code - `if digitalRead(buttonAPin) == HIGH`. 
+
+![[Pasted image 20231023221545.png]]
+
+## Problem 2: Switch Modes
+I used a `while` loop to detect which mode the use chose. For example: 
 ```
-#include <LiquidCrystal_I2C.h>
-#include <Arduino.h>
-#include <Wire.h>
-
-LiquidCrystal_I2C lcd_1(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
-// Adafruit_LiquidCrystal lcd_1(0);
-
-const int ledPin_R = 10; // Define the pin connected to the red LED
-const int ledPin_B = 11; // Define the pin connected to the blue LED
-
-const int buttonAPin = 2;  // Connect button A to digital pin 2
-const int buttonBPin = 3;  // Connect button B to digital pin 3
-const int buttonCPin = 4;  // Connect button C to digital pin 4
-
-int SensT = 75; // Current temperature from the sensing end
-int MaxT = 80; // Maximum temperature set by the user
-int MinT = 70; // Minimum temperature set by the user
-
-int settingMode = 0;
-
-void setup()
-{
-  pinMode(buttonAPin, INPUT_PULLUP); //pull up the internal resistor
-  pinMode(buttonBPin, INPUT_PULLUP);
-  pinMode(buttonCPin, INPUT_PULLUP);
-  
-  pinMode(ledPin_R, OUTPUT);
-  pinMode(ledPin_B, OUTPUT);
-
-  lcd_1.init();
-  lcd_1.backlight();
-  lcd_1.begin(16, 2); // Initialize the LCD with 16 columns and 2 rows
-  lcd_1.clear();  // Clear the LCD screen
-}
-
-void loop()
-{
-  int buttonAState = digitalRead(buttonAPin);
-  int buttonBState = digitalRead(buttonBPin);
-  int buttonCState = digitalRead(buttonCPin);
-
-  // Check if buttonA is pressed
-  if (buttonAState == LOW) {
-    // Wait for button release to avoid rapid multiple presses
-    while (digitalRead(buttonAPin) == LOW) {
-      delay(10);
-    }
-
-    // Toggle settingMode between 0, 1, and 2
-    settingMode++;
-    if (settingMode > 2) {
-      settingMode = 0;  // Reset to 0 after reaching 2
-    }
-  }
-    
-  // While in setting mode 1, adjust MaxT
-  while (settingMode == 1) {
-    lcd_1.clear();
-    lcd_1.print("Setting maxTemp:");
-    lcd_1.setCursor(0,1);
-    lcd_1.print(MaxT);
-    if (buttonBState == LOW) {
-      MaxT++;
-      delay(500);  
-    } else if (buttonCState == LOW) {
-      MaxT--;
-      delay(500);  
-    }
-  }
-    
-  // While in setting mode 2, adjust MinT
-  while (settingMode == 2) {
-    lcd_1.clear();
-    lcd_1.print("Setting minTemp:");
-    lcd_1.setCursor(0,1);
-    lcd_1.print(MinT);
-    if (buttonBState == LOW) {
-      MinT++;
-      delay(500);  
-    } else if (buttonCState == LOW) {
-      MinT--;
-      delay(500);  
-    }
-  }
-
-  // While setting mode is off, show live temperature
   while (settingMode == 0) {
   	lcd_1.clear();
     lcd_1.setCursor(0, 0);
@@ -121,17 +70,51 @@ void loop()
     lcd_1.setCursor(0, 1);
   	lcd_1.print(SensT);
   }
-
-  // Control A/C unit (blue LED for cooling, red LED for heating)
-  if (SensT > MaxT) {
-    digitalWrite(ledPin_B, HIGH); // Turn the blue LED on
-    digitalWrite(ledPin_R, LOW);  // Turn the red LED off
-  } else if (SensT < MinT) {
-    digitalWrite(ledPin_B, LOW);  // Turn the blue LED off
-    digitalWrite(ledPin_R, HIGH); // Turn the red LED on
-  } else {
-    digitalWrite(ledPin_B, LOW);  // Turn the blue LED off
-    digitalWrite(ledPin_R, LOW);  // Turn the red LED off
-  }
-}
 ```
+
+As Sudhu pointed out, this can cause unexpected troubles, and he suggested using `switch()` instead. Once the button press issue was resolved, I switched to that, and it just worked: 
+
+```
+switch (settingMode) {
+  case 0:
+    lcd.clear();  // Clear the LCD screen
+    lcd.print("Max Temp:");  // Display text on the LCD
+    lcd.setCursor(0,1); 
+    lcd.print(MaxT);
+    if (buttonBState == HIGH) {
+      MaxT--;
+      delay(200);
+      // if (MaxT < MinT) {
+      //   MaxT++;
+      // }
+    } else if (buttonCState == HIGH) {
+      MaxT++;
+      delay(200);
+    break;
+  case 1:
+    lcd.clear();  // Clear the LCD screen
+    lcd.print("Min Temp:");  // Display text on the LCD
+    lcd.setCursor(0,1); 
+    lcd.print(MinT);
+    if (buttonBState == HIGH) {
+     MinT--;
+     delay(200);
+    } else if (buttonCState == HIGH) {
+      MinT++;
+      delay(100);
+      // if (MinT > MaxT) {
+      //   MinT--;
+      // }
+    break;
+  case 2: 
+    lcd.clear();  // Clear the LCD screen
+    lcd.print("Live Temp:");  // Display text on the LCD
+    lcd.setCursor(0,1);  // Set the cursor to the top-left corner
+    lcd.print(SensT);
+    break;
+  }
+```
+
+## Photon Wiring
+Here's a photo of the wiring on photon, which is close to what I tested on the Arduino:
+![[IMG_3984.jpeg]]
