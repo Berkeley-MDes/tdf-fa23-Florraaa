@@ -18,7 +18,7 @@ Link back to [README.md](../README.md)
 
 ---
 
-## Food Preservation - UI 
+## Digital Ecosystem
 ### Design
 ![img](_attachments/d05ae4a75da38ba987ffda6ed5c7faa2.jpeg)
 ![img](_attachments/Texas_Fruit_Preservation.jpg)

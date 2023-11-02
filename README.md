@@ -2,6 +2,9 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Oct.26](weekly-reports/2023_10_26_ProgressReport.md)
+- **A.I.**
+	- Practiced fine-tuning the model in [ZeroWidth.ai ](zerowidth.ai)
 ### [Week of Oct.19](weekly-reports/2023_10_19_ProgressReport.md)
 - **A.I.**
 	- Learned more about how A.I. impacts design from a presentation
