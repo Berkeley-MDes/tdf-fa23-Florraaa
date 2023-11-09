@@ -2,6 +2,10 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Nov.02](weekly-reports/2023_11_02_ProgressReport.md)
+- LLM
+	- Explore the concept of an A.I.-empowered note-taking device. 
+
 ### [Week of Oct.26](weekly-reports/2023_10_26_ProgressReport.md)
 - **A.I.**
 	- Practiced fine-tuning the model in [ZeroWidth.ai ](zerowidth.ai)
