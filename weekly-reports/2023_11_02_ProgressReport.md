@@ -11,4 +11,4 @@ Link back to [README.md](../README.md)
 
 
 # Concept Mapping
-![[Pasted image 20231109152955.png]]
+![Pasted image 20231109152955.png](_attachments/Pasted image 20231109152955.png)
