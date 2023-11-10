@@ -20,7 +20,7 @@ Link back to [README.md](../README.md)
 
 ## Digital Ecosystem
 ### Design
-![img](_attachments/d05ae4a75da38ba987ffda6ed5c7faa2.jpeg)
+![img](Texas_Fruit.jpeg)
 ![img](_attachments/Texas_Fruit_Preservation.jpg)
 ## Major learnings from setbacks
 1. Build the hardware with codes incrementally to avoid massive troubleshooting work later on

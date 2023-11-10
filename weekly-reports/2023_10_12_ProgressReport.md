@@ -15,7 +15,7 @@ Link back to [README.md](../README.md)
 # Design
 If implemented in a Texas farm, the device needs to **communicate between the farmer and various sensors in the warehouse.**  The idea is to have one device for displaying sensing information (temperature and humidity) to the farmer and the other for sensing and sending over the data via **LoRaWAN technology** (Long Range Wide Area Network).
 
-![[Pasted image 20231023215316.png]]
+![LoRa](_attachments/LoRa.png)
 
 Our demo involves two computing devices talking to each other via Wi-Fi. I took in charge of the interface design for the user (farmer), which is at the right side of the diagram. 
 
@@ -36,29 +36,29 @@ The farmer can press the *setting* button to switch between 3 modes:
 3. Press twice: setting the minimum temperature
 4. * Press the third time: returns to the default mode
 
-![[Texas_Fruit_Preservation.jpg]]
+![Texas_Fruit_Preservation](_attachments/Texas_Fruit_Preservation.jpg)
 
 # Process
 Because I lent my photon to my teammate to test connections between the two, I **started off by experimenting with sensor connections on an Arduino board** (below is the successful demo on the board). 
 
-![[Pasted image 20231023220312.png]]
+![Hardware](_attachments/Hardware.png)
 
 I first wrote the code on **TinkerCAD** and could not troubleshoot what was wrong since the simulation would not run, and **the error code message did not show anything specific.** 
 
 I realized troubleshooting would be easier if I built the hardware incrementally and tested coding during this process. I switched to troubleshooting on both Arduino and Photon eventually. 
 ## Problem 1: Not Detecting Button Press
 
-![[d05ae4a75da38ba987ffda6ed5c7faa2.jpeg]]
+![Texas_Fruit](_attachments/Texas_Fruit.jpeg)
 
 I troubleshoot using the `print()` function in my `while` loops and `if` statements and realized **the button press was not detected.** 
 
 I tried many methods but did not succeed. I was connecting the button to the ground pin and a digital pin **without any resistor**, which caused the issue. However, I did not doubt this setup for the entire week since some people got it to work, like the tutorial below. 
 
-![[Pasted image 20231023221728.png]]
+![Button](Button.png)
 
 When I finally connected the button to the ground pin **with a resistor**, I resolved the issue without any modification to the original code - `if digitalRead(buttonAPin) == HIGH`. 
 
-![[Pasted image 20231023221545.png]]
+![Button_Connection](_attachments/Button_Connection.png)
 
 ## Problem 2: Switch Modes
 I used a `while` loop to detect which mode the use chose. For example: 
@@ -117,4 +117,4 @@ switch (settingMode) {
 
 ## Photon Wiring
 Here's a photo of the wiring on photon, which is close to what I tested on the Arduino:
-![[IMG_3984.jpeg]]
+![Final_Connection](_attachments/Final_Connection.JPEG)

@@ -11,15 +11,14 @@ Link back to [README.md](../README.md)
 ---
 
 ## Tone
-![[Pasted image 20231102112348.png]]
-![[Pasted image 20231102112438.png]]
+![AI_1](attachments/AI_1.png)
+![AI_2.png](_attachments/AI_2.png)
 
 # Connecting Database
-![[Pasted image 20231102121148.png]]
-![[Pasted image 20231102113015.png]]
-
+![AI_3.png](_attachments/AI_3.png)
+![AI_4](_attachments/AI_4.png)
 
 --- 
 
 ## Result
-![[Pasted image 20231102120353.png]]
+![AI_5](_attachments/AI_4.png)
