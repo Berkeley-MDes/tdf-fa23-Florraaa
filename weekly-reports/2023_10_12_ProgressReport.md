@@ -115,6 +115,6 @@ switch (settingMode) {
   }
 ```
 
-## Photon Wiring
+	## Photon Wiring
 Here's a photo of the wiring on photon, which is close to what I tested on the Arduino:
 ![Final_Connection](_attachments/Final_Connection.JPEG)

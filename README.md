@@ -2,6 +2,10 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+### [Week of Nov.09](weekly-reports/2023_11_09_ProgressReport.md)
+- Final Project
+	- Ideated and tested the industrial design and sourced  hardware for the AI note-taking device. 
+
 ### [Week of Nov.02](weekly-reports/2023_11_02_ProgressReport.md)
 - LLM
 	- Explore the concept of an A.I.-empowered note-taking device. 
