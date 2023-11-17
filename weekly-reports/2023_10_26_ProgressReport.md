@@ -11,7 +11,7 @@ Link back to [README.md](../README.md)
 ---
 
 ## Tone
-![AI_1](attachments/AI_1.png)
+![AI_1](_attachments/AI_1.png)
 ![AI_2.png](_attachments/AI_2.png)
 
 # Connecting Database

@@ -11,7 +11,6 @@ Link back to [README.md](../README.md)
 
 
 # Ideation and Hardware Sourcing
-
-![img](_attachments/ideation&Hardware.png)
-![img](_attachments/assets.png)
+![img](_attachments/Ideation&Hardware.png)
+![img](_attachments/Assets.png)
 
