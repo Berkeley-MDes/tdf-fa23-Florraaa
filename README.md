@@ -2,6 +2,11 @@
 Everything I learned about *Design* and *Technology* will be posted here. Click into each week to see **reflections, speculations, and process notes.** 
 
 ## TL;DR
+
+### [Week of Nov.23](weekly-reports/2023_11_23_ProgressReport.md)
+- Final Project
+	- Worked on the Python code and CAD model. 
+
 ### [Week of Nov.09](weekly-reports/2023_11_09_ProgressReport.md)
 - Final Project
 	- Ideated and tested the industrial design and sourced hardware for the AI note-taking device. 

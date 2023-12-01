@@ -1,7 +1,6 @@
 Link back to [README.md](../README.md)
 
 ---
-
 # Speculations
 - Coding always seems complicated, but the eventual solution is often simple. 
 
